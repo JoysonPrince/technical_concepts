@@ -57,8 +57,22 @@ Source Systems → Staging Area → ETL Processing → Data Warehouse → Report
 3. Near Real-time ETL: Small delays (minutes).
 
 
+## Data Lake:
+-- Unlike a DWH which stores only structured data, Data lake stores structured, unstructured and semi-structured data.
+-- Used usually when we have mixed types of data like, database tables, images, logs, videos, etc...
+-- But, this is not organized like a DWH & if the data becomes too unorganized, it becomes a Data Swamp.
+
+## Data LakeHouse:
+-- A combination of data warehouse and data lake.
+-- This has the flexibility of having different types of data from the data lake and this data is organized like a data warehouse.
+
+
+
 
 <img width="1907" height="861" alt="Data Architecture" src="https://github.com/user-attachments/assets/02ea8acb-70dc-41ca-b1e2-9fbcd34d8475" />
+
+
+
 
 
 
